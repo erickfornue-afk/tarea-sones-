@@ -4,7 +4,7 @@
     <title>Mi Pasatiempo</title>
     <style>
         body {
-            background-image: url("https://raw.githubusercontent.com/erickfornue-afk/tarea-sones-/main/fondo.jpeg.jpeg");
+            background-image: url("https://raw.githubusercontent.com/erickfornue-afk/tarea-sones-/main/fondo.jpeg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
