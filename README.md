@@ -12,11 +12,11 @@
             color: white; /* Esto hace que todo el texto sea blanco para que se lea bien */
         }
         table, th, td {
-            color: white;
-            border: 1px solid white;
+            color: black;
+            border: 1px solid black;
         }
         footer {
-            color: white;
+            color: black;
         }
     </style>
 </head>
