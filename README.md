@@ -12,7 +12,6 @@
             color: black;
             font-family: Arial, sans-serif;
         }
-![fondo jpeg](https://github.com/user-attachments/assets/f44aee5f-347c-403e-9a5c-5831583d5759)
 
         table {
             border-collapse: collapse;
