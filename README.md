@@ -9,13 +9,27 @@
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            color: white; /* Esto hace que todo el texto sea blanco para que se lea bien */
-        }
-        table, th, td {
             color: black;
-            border: 1px solid black;
+            font-family: Arial, sans-serif;
         }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            background-color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            color: black;
+            padding: 8px;
+            text-align: left;
+        }
+
         footer {
+            margin-top: 20px;
+            font-weight: bold;
             color: black;
         }
     </style>
@@ -28,7 +42,7 @@
 </header>
 
 <main>
-    <p>Escuchar sones huastecos es una experiencia muy especial. Su musica, con violin, jarana y quinta huapanguera, trasmite alegria, tradicion y la cultura de la region huasteca...</p>
+    <p>Escuchar sones huastecos es una experiencia muy especial. Su musica, con violin, jarana y quinta huapanguera, trasmite alegria, tradicion y la cultura de la region huasteca. Cada son cuenta historias y refleja las costumbres del pueblo, por lo que escucharlos es una forma de mantener viva la tradicion y disfrutar de la musica llena de identidad y sentimiento.</p>
 
     <img src="trio.jfif" width="400">
 
@@ -65,11 +79,14 @@
             <td>Trio huapangueros de Aguascalientes</td>
             <td>2025</td>
         </tr>
-    </table> <h2>El Apasionado</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/TB5eqVtNenE" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </table>
+
+    <h2>El Apasionado</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TB5eqVtNenE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     <p>Conoce a los creadores de esta página:</p>
     <button onclick="window.location.href='https://youtu.be/1N1doULTcCg?feature=shared'">Ver Saludo</button>
+
 </main>
 
 <footer>
