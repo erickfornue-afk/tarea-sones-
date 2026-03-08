@@ -4,7 +4,7 @@
     <title>Mi Pasatiempo</title>
     <style>
         body {
-            background-image: url("https://github.com/user-attachments/assets/98fec48e-c491-4d13-a7e6-a3e485f9ebd5");
+            background-image: url("https://raw.githubusercontent.com/erickfornue-afk/tarea-sones-/main/fondo.jpeg.jpeg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -16,15 +16,19 @@
         table {
             border-collapse: collapse;
             width: 80%;
-            background-color: rgba(255, 255, 255, 0.7);
+            background-color: rgba(255, 255, 255, 0.8);
             margin-bottom: 20px;
         }
 
         table, th, td {
             border: 1px solid black;
             color: black;
-            padding: 8px;
+            padding: 10px;
             text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
         }
 
         footer {
@@ -48,7 +52,7 @@
 
     <h2>Sones huastecos populares</h2>
 
-    <table border="1">
+    <table>
         <tr>
             <th>Canción</th>
             <th>Intérprete</th>
